@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorCompras">#8d47a6</color>
+    <color name="colorOcio">#629c56</color>
+    <color name="colorFacturas">#56959c</color>
+    <color name="colorTransporte">#9c9956</color>
+    <color name="colorSalud">#9c5656</color>
+    <color name="colorRenta">#56599c</color>
+    <color name="colorEducacion">#9c5690</color>
+    <color name="colorOtros">#9c6c56</color>
+
+    <color name="appOscuro">#551480</color>
+    <color name="appClaro">#8d3bd1</color>
+
+
+</resources>

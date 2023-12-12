@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="444dp"
+            android:layout_marginEnd="33dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.307"
+            android:padding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="0dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="276dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ToggleButton
+                android:id="@+id/toggleCompras"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_compras"
+                android:radius="20dp"
+                android:text="Compras"
+                android:textAllCaps="false"
+                android:textOff="Compras"
+                android:textOn="Compras" />
+
+            <ToggleButton
+                android:id="@+id/toggleOcio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_ocio"
+                android:text="Ocio"
+                android:textAllCaps="false"
+                android:textOff="Ocio"
+                android:textOn="Ocio" />
+
+            <ToggleButton
+                android:id="@+id/toggleFacturas"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_facturas"
+                android:text="Facturas"
+                android:textAllCaps="false"
+                android:textOff="Facturas"
+                android:textOn="Facturas" />
+
+            <ToggleButton
+                android:id="@+id/toggleTransporte"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_transporte"
+                android:text="Transporte"
+                android:textAllCaps="false"
+                android:textOff="Transporte"
+                android:textOn="Transporte" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ToggleButton
+                android:id="@+id/toggleSalud"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_salud"
+                android:text="Salud"
+                android:textAllCaps="false"
+                android:textOff="Salud"
+                android:textOn="Salud" />
+
+            <ToggleButton
+                android:id="@+id/toggleRenta"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_renta"
+                android:text="Renta"
+                android:textAllCaps="false"
+                android:textOff="Renta"
+                android:textOn="Renta" />
+
+            <ToggleButton
+                android:id="@+id/toggleEducacion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_educacion"
+                android:text="Educacion"
+                android:textAllCaps="false"
+                android:textOff="Educacion"
+                android:textOn="Educacion" />
+
+            <ToggleButton
+                android:id="@+id/toggleOtro"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_otro"
+                android:text="Otro"
+                android:textAllCaps="false"
+                android:textOff="Otro"
+                android:textOn="Otro" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="151dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="800dp"
+            android:text="Agregar"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="150dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="800dp"
+            android:text="Cancelar"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextMonto"
+            android:layout_width="173dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="196dp"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="268dp"
+            android:layout_marginTop="196dp"
+            android:text="CLP"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="64dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Agregar gasto"
+            android:textSize="34sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="924dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

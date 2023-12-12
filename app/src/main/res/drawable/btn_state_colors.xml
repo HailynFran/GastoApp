@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/color/btn_state_colors.xml -->
+<!-- res/drawable/radio_button_custom.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado cuando está seleccionado -->
+    <!-- Estado por defecto -->
+    <item android:drawable="@color/appOscuro"/>
+</selector>
+

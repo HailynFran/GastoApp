@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/change_password"
+        android:title="Cambiar contraseña"
+        app:showAsAction="never"
+        app:iconTint="@android:color/white" />
+
+    <item
+        android:id="@+id/clear_data"
+        android:title="Borrar datos"
+        app:showAsAction="never"
+        app:iconTint="@android:color/white" />
+</menu>
